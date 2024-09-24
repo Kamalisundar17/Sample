@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url='https://sample-eight-lovat.vercel.app';
+const url='https://sample-eight-lovat.vercel.app/';
 
 export const fetchPosts = ()=>  axios.get(url);
 
